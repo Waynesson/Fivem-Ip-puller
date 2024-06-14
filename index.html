@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server IP Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <pre class="ascii-art">
+   _____ ________   __              _____ _____     ______ _           _           
+  / ____|  ____\ \ / /             |_   _|  __ \   |  ____(_)         | |          
+ | |    | |__   \ V /   _ __ ___     | | | |__) |  | |__   _ _ __   __| | ___ _ __ 
+ | |    |  __|   > <   | '__/ _ \    | | |  ___/   |  __| | | '_ \ / _` |/ _ \ '__|
+ | |____| |     / . \ _| | |  __/   _| |_| |       | |    | | | | | (_| |  __/ |   
+  \_____|_|    /_/ \_(_)_|  \___|  |_____|_|       |_|    |_|_| |_|\__,_|\___|_|   
+        </pre>
+        <input type="text" id="serverUrl" placeholder="Enter server's CFX.re IP address">
+        <button onclick="getServerIP()">Get IP</button>
+        <div id="result"></div>
+        <div class="note">
+            <p>Note: Remember that some servers have their IP hidden, but there is another way to get it. Also make sure that server is online!</p>
+            <p>You can contact me on Discord, just be kind - GoodOne#4446.</p>
+            <p>Feel free to request features and report bugs. I will fix them or implement features as fast as I can. :)</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
